@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f5f5; 
+}
+
+header {
+  background-color: #5a3e25; 
+  color: #fff; 
+  text-align: center;
+  padding: 20px;
+}
+
+header nav {
+  background-color: #f0e5d5; 
+  padding: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #5a3e25; 
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: #000; 
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-gallery img {
+  width: 250px; 
+  height: 250px; 
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+section {
+  padding: 20px;
+  background-color:  #5a3e25;
+  color: #fff;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+section p {
+  margin-bottom: 20px;
+}
+
+#home {
+  background-image: url('images/shawarma-background-colour.jpeg');
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+#about {
+  background-color: #f0e5d5;
+  padding: 20px;
+}
+
+#start-here {
+  background-color: #5a3e25;
+  padding: 20px;
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #5a3e25; 
+  color: white; 
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

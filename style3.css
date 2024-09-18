@@ -1,0 +1,37 @@
+body {
+  font-family: 'Times New Roman', Times, serif; font-style: italic; 
+  margin: 0;
+  padding: 20px; 
+  background-image: url(Images/Shawarma\ wrap.jpeg); background-repeat: no-repeat; background-size: cover;
+}
+
+a {
+  color: #000; 
+  text-decoration: none; 
+}
+
+a:hover { 
+  color: #5a3e25; 
+}
+
+main { 
+  width: 70%; 
+  margin: 0 auto; 
+  padding: 20px; 
+  background-color: #f5f5f5; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+h2 {
+  font-size: 2em; 
+  margin-bottom: 10px; 
+  text-align: center; 
+}
+
+p {
+  margin-top: 10px; 
+  line-height: 1.5; 
+  text-align: justify; 
+}

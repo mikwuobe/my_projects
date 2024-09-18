@@ -1,0 +1,47 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+  }
+  
+  
+  header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  
+  .recipes {
+    display: flex; 
+    flex-wrap: wrap; 
+    margin: 20px auto; 
+    width: 100%; 
+  }
+  
+  .recipe {
+    margin: 10px; 
+    text-align: center;
+  }
+  
+  .recipe a {
+    text-decoration: none; 
+    color: black; 
+  }
+  
+  .recipe img {
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover; 
+  }
+  
+  .recipe h2 {
+    margin-top: 10px; 
+  }
+  

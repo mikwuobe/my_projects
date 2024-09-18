@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style7.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Rock Paper Scissors</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Score</h2>
+                <p id="score">You: 0 - Computer: 0</p>
+            </div>
+            <div class="col-md-6">
+                <h2>Round</h2>
+                <p id="round">Round 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <button id="rock" class="btn btn-primary">Rock</button>
+                <id="rock-image" />
+                <img src="images/rocks.jpeg" alt="Rock Image">
+            </div>
+            <div class="col-md-4">
+                <button id="paper" class="btn btn-primary">Paper</button>
+                <id="paper-image" />
+                <img src="images/paper.jpeg">
+            </div>
+            <div class="col-md-4">
+                <button id="scissors" class="btn btn-primary">Scissors</button>
+                <id="scissors-image" />
+                <img src="images/scissors.jpeg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Your Choice</h2>
+                <img id="user-choice" src="" alt="" width="100" height="100">
+            </div>
+            <div class="col-md-6">
+                <h2>Computer's Choice</h2>
+                <img id="computer-choice" src="" alt="" width="100" height="100">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Result</h2>
+                <p id="result"></p>
+            </div>
+        </div>
+        <button id="reset" class="btn btn-danger">Reset</button>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>

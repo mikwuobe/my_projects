@@ -1,0 +1,47 @@
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+.calculator {
+    width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #444;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.key {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: #fff;
+    cursor: pointer;
+}
+
+.key:hover {
+    background-color: #555;
+}
+
+#display {
+    width: 90%;
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
+    border: none;
+    border-radius: 100px;
+    background: color #444b44;;
+    color: #444b44;
+}
+
+.scientific-key {
+    display: grid;
+}
